@@ -1,3 +1,9 @@
+$footer-link-color: rgba(255, 255, 255, 0.5);
+$footer-link-color-hover: $white;
+$landing-content-bg: rgba(0, 0, 0, 0.2);
+$landing-content-text-shadow-color: rgba(0, 0, 0, 0.3);
+$landing-content-border-color: rgba(0, 0, 0, 0.05);
+
 .fixed-top {
   height: 56px;
 }
@@ -20,9 +26,10 @@ footer {
   background: transparent;
 
   a {
-    color: rgba(255,255,255,0.5);
+    color: $footer-link-color;
+
     &:hover {
-      color: white;
+      color: $footer-link-color-hover;
     }
   }
 
@@ -32,15 +39,15 @@ footer {
 }
 
 .page {
-  font-size: .875rem;
-  letter-spacing: .0264285em;
+  font-size: 0.875rem;
+  letter-spacing: 0.0264285em;
 }
 
 #landing-content {
-  color: #fafafa;
-  background-color: rgba(0,0,0,0.2);
-  text-shadow: 0.125em 0.125em 0.3em rgba(0, 0, 0, 0.3);
-  border: 3px solid rgba(0,0,0,0.05);
+  color: $light-0;
+  background-color: $landing-content-bg;
+  text-shadow: 0.125em 0.125em 0.3em $landing-content-text-shadow-color;
+  border: 3px solid $landing-content-border-color;
 
   @include media-breakpoint-down(xs) {
     height: 100%;

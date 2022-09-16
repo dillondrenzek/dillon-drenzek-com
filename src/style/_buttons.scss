@@ -1,33 +1,20 @@
-@mixin fg-bg($foreground-color: white, $background-color: black) {
-  background-color: $background-color;
-  color: $foreground-color;
-}
-
+$button-text-shadow-color: rgba(0, 0, 0, 0.3);
 
 .btn {
-
   display: inline-block;
   text-decoration: none;
-  &:hover {
-    text-decoration: none;
-  }
-
   // color mixin
-  background-color: #b23b23;
-  color: #fafafa;
-  &:hover {
-    background-color: darken(#b23b23, 3%);
-    color: white;
-  }
-
-
-
+  background-color: $primary;
+  color: $light-0;
   font-size: 1.25rem;
   font-weight: 700;
-
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-
+  text-shadow: 1px 1px 3px $button-text-shadow-color;
   // size mixin
   padding: 0.75em 1.25em;
 
+  &:hover {
+    text-decoration: none;
+    background-color: darken($primary, 3%);
+    color: $white;
+  }
 }
