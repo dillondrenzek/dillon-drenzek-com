@@ -1,4 +1,4 @@
-# dillon-drenzek.com
+# dillon-drenzek-com
 
 The professional portfolio of Dillon Drenzek
 
@@ -9,26 +9,28 @@ The professional portfolio of Dillon Drenzek
 
 This site is a small Express app that renders a single landing page using Pug templates.
 
+## Setup
+
+1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli)
+
 ## Local Development
 
 1. Install dependencies:
 
-```
-npm install
-```
+   ```
+   npm install
+   ```
 
 1. Start the dev server:
 
-```
-npm start
-```
+   ```
+   npm start
+   ```
 
-1. Open the site at:
+1. Open the site at http://localhost:8085
 
-```
-http://localhost:8085
-```
+## Deployment
 
-## Deployment (Planned)
+Deployment uses Heroku.
 
-Deployment uses Heroku, but it is not working yet. This section will be expanded once the deployment flow is stable.
+This section will be expanded once the deployment flow is stable.
