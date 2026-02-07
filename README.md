@@ -1,24 +1,34 @@
-# [drenzek-dillon](http://dillon.drenzek.com)
-The professional portfolio of University of Colorado graduate, Dillon Drenzek. <br>
+# dillon-drenzek.com
+
+The professional portfolio of Dillon Drenzek
+
 **Homepage**: http://dillon.drenzek.com
+**Version**: `5.0.0`
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/dillondrenzek/dillon-drenzek-com.svg?columns=all)](https://waffle.io/dillondrenzek/dillon-drenzek-com)
+## Overview
 
-## Development
+This site is a small Express app that renders a single landing page using Pug templates.
 
-### Push to Staging
-1. `git push origin v5-staging`
+## Local Development
 
-## Outlook
+1. Install dependencies:
 
-### For Beta
-- Display related work experience and education Resume-style
-- Display Work that I've done and am doing (WIP)
-- Links to my social media pages
-  - Include links back
-- Allow download of my resume as a PDF
-- Short "Word from the Author" explaining current situation
+```
+npm install
+```
 
-### For Release
-- Solid build and deploy process
-  - Travis CI?, front-end testing?, gulp?
+1. Start the dev server:
+
+```
+npm start
+```
+
+1. Open the site at:
+
+```
+http://localhost:8085
+```
+
+## Deployment (Planned)
+
+Deployment uses Heroku, but it is not working yet. This section will be expanded once the deployment flow is stable.
