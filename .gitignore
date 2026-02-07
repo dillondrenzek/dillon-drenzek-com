@@ -1,15 +1,5 @@
 .idea
 node_modules
-bower_components
 .DS_Store
 
-#v5 Project planning
-/_project
-/static/stylesheets/*.css.map
-/static/stylesheets/*.min.css.map
-/static/style
-
-
-!views/*.pug
-test.js
 .env

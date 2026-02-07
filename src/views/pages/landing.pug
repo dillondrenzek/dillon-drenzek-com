@@ -1,29 +1,8 @@
-extends ../default
-
-block body
-  .fixed-top
+doctype
+html
+  include ../includes/head
+    
+  body
     include ../components/nav
 
-  .page-frame
-    .page.w-100.h-100
-      .container.h-100
-        .row.h-100.align-items-center.justify-content-center
-          .col-lg-5.col-md-6.col-sm-8.col-xs-12
-        
-            #landing-content
-              .row.text-center.p-3
-                .col-12
-                  h1 Dillon Drenzek
-                  p Software Developer - Digital Artist
-                  p Seattle, WA
-                .p-2
-                .col-12
-                  a(href="/resume").btn Download Resume
-                //- .col-12
-                  h2 Visit Me:
-                  ul
-                    li LinkedIn
-                    li Github
-                    li Instagram
-
-  include ../components/footer
+    .page-frame
