@@ -15,8 +15,6 @@ app.set('views', path.join(__dirname, '/src/views'));
 app.set('view engine', 'pug');
 
 app.use('/static', express.static(__dirname + '/static'));
-app.use('/vendor', express.static(__dirname + '/vendor'));
-app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
 
 // GET '/resume'
