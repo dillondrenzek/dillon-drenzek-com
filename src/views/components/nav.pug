@@ -7,13 +7,8 @@ mixin nav_link(link, text)
 
 //- Template
 nav
-  .container
-    .d-flex.w-100.flex-row.justify-content-between.align-items-center
-      div
-        +logo('56')(class="logo")
-      div
-        each account in socialMedia
-          a.nav-link(href=account.url target="_blank" title=account.title)
-            i(class=account.faIconClasses)
-        
-        +nav_link('/resume', 'Resume')
+  +logo('56')(class="logo")
+  div
+    each account in socialMedia
+      a.nav-link(href=account.url target="_blank" title=account.title)
+        i(class=account.faIconClasses)
